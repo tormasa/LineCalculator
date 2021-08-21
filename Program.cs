@@ -46,6 +46,9 @@ namespace LineCalculator {
 
 			Console.WriteLine($"In the specified directory ({pathToRead}) and its subdirectories there are {lineCount} lines in {fileCount} .cs files.");
 			Console.WriteLine($"{lineCountWithoutBlankLines} line when not counting blank lines.");
+
+			Console.WriteLine("\nPress any key to continue...");
+			Console.ReadKey();
 		}
 	}
 }
